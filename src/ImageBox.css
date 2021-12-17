@@ -1,0 +1,11 @@
+.image-box {
+    width: 250px;
+    height: 320px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 40px;
+}
