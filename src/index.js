@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ChangingState from './ChangingState';
 // import HandlingEvents from './HandlingEvents';
 // import Apps from './ClassComponent';
 // import StateClass from './State';
@@ -10,10 +11,10 @@ import ReactDOM from 'react-dom';
 // import Joke from './Joke';
 // import Products from './Products';
 // import App from './App';
-import Todo from './todo'
+// import Todo from './todo'
 
 ReactDOM.render(
-    <Todo />,
+    <ChangingState />,
   document.getElementById('root')
 );
 
