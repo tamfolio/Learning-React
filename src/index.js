@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import HandlingEvents from './HandlingEvents';
 // import Apps from './ClassComponent';
 // import StateClass from './State';
 // import StatePractice from './StatePractice';

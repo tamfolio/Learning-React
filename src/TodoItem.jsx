@@ -4,7 +4,8 @@ import './App.css';
 function TodoItem(props) {
     return (
         <div className='todo-item'>
-            <input type="checkbox" checked={props.completed} />
+            <input type="checkbox" checked={props.completed} 
+            onChange={() => console.log('Changed')} />
             <p>{props.text}</p>
         </div>
     )
