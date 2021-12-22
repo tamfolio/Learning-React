@@ -6,13 +6,22 @@ class ChangingState extends React.Component {
         this.state= {
             count: 0
         }
-        this.handleClick = this.handleClick.bind(this)
+        this.handleIncrease = this.handleIncrease.bind(this)
+        this.handleDecrease = this.handleDecrease.bind(this)
     }
 
-    handleClick() {
+    handleIncrease() {
         this.setState(prevState => {
             return {
                 count: prevState.count + 1
+            }
+        })
+    }
+
+    handleDecrease() {
+        this.setState(prevState => {
+            return {
+                count: prevState.count - 1
             }
         })
     }
@@ -20,7 +29,8 @@ class ChangingState extends React.Component {
         return (
             <div>
                 <h1>{this.state.count}</h1>
-                <button onClick={this.handleClick}>Change!</button>
+                <button onClick={this.handleIncrease}>Increase</button>
+                <button onClick={this.handleDecrease}>Decrease</button>
             </div>
         )
     }
