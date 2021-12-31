@@ -1,5 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import Forms from './Forms';
+import FormsPractice from './FormsPractice';
+// import FetchingFromApi from './FetchingFromApi';
+// import Conditional from './Conditional';
 // import ChangingState from './ChangingState';
 // import HandlingEvents from './HandlingEvents';
 // import Apps from './ClassComponent';
@@ -11,10 +15,10 @@ import ReactDOM from 'react-dom';
 // import Joke from './Joke';
 // import Products from './Products';
 // import App from './App';
-import Todo from './todo'
+// import Todo from './todo'
 
 ReactDOM.render(
-    <Todo />,
+    <FormsPractice />,
   document.getElementById('root')
 );
 
